@@ -7,8 +7,8 @@
   - Data Description and Usage
   - Data Source
   - Data Understanding
-    -> Deployment
-    -> Modeling
+    - Deployment
+    - Modeling
 * Recommendations 
 * Conclusion and key findings
 * Links to deliverables and relevant sources**
@@ -41,7 +41,7 @@ The Fashion AI dataset is used in this project for training and evaluating machi
 - Access:[https://github.com/AemikaChow/AiDLab-fAshIon-Data] 
 
 #### Data Understanding 
-***objectives***
+***Objectives***
 1. Employ deep learning models like CNNs and transformers for fashion item visual analysis.
 2.	Train models for compatibility and style cohesion to create balanced outfits.
 3.	Enable hyper-personalized recommendations.
@@ -77,6 +77,7 @@ To utilize the Virtual Closet notebook:
 - Define a dummy scoring function for use in grid search, which returns a constant value of 0.0 and is used as a placeholder.
 - Perform a grid search over the defined parameter grid using GridSearchCV from scikit-learn.
 - Finally, print the best parameters found by the grid search.
+
 ***Reproduction Instructions***
 > To reproduce the grid search:
 1. Ensure all necessary libraries are installed.
