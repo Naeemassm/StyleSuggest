@@ -7,8 +7,8 @@
   - Data Description and Usage
   - Data Source
   - Data Understanding
-    ***Deployment*** 
-    ***Modeling***
+    -> Deployment
+    -> Modeling
 * Recommendations 
 * Conclusion and key findings
 * Links to deliverables and relevant sources**
@@ -130,7 +130,7 @@ To utilize the Virtual Closet notebook:
 - Final Evaluation: Upon training completion, model evaluated once more on validation data, providing final accuracy and loss.
 
 #### Deployment 
-> Virtual Web App Python Script, [VirtualWebApp.py](virtualwebapp.py): 
+> Virtual Web App Python Script [streamlit.py] :
 * This Python script facilitates the creation of a user-friendly web application, which is implemented using Streamlit , allowing users to upload images and receive personalized fashion recommendations based on the virtual closet's feature extraction and recommendation functionalities.
 * It includes the following components:
 - Importing necessary libraries such as Streamlit, PIL (Python Imaging Library), NumPy, OpenCV, and TensorFlow.
